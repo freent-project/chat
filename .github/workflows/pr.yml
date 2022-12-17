@@ -1,0 +1,15 @@
+name: Force Close Pull Requests
+
+on:
+  pull_request_target:
+  pull_request:
+
+jobs:
+  close:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Close pull request
+        uses: peter-evans/close-pull@v2
+        with:
+          comment: Contributions to this repository are not accepted.
+          delete-branch: true
