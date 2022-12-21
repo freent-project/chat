@@ -12,4 +12,3 @@ jobs:
         uses: peter-evans/close-pull@v2
         with:
           comment: Contributions to this repository are not accepted.
-          delete-branch: true
