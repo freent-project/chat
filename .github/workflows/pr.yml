@@ -11,4 +11,11 @@ jobs:
       - name: Close pull request
         uses: peter-evans/close-pull@v2
         with:
-          comment: Contributions to this repository are not accepted.
+          comment: |
+            I'm an NT Bot from Flossia.
+            
+            Contributions to this repository are not accepted. I'm so sorry. Anyways, this repository only provides our fourms.
+            You can contribute to most FreeNT Projects, but this repository is no FreeNT Project. Beep-boop. Abort. Thanks for
+            reading my comment. Beep-boop.
+            
+            <sub>Signed, NT BOT</sub>
