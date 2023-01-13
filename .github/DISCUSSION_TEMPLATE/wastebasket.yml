@@ -2,3 +2,14 @@ body:
 - type: markdown
   attributes:
      value: "**NT BOT: Beep boop, please keep in mind this is not a place to post, it is an archive of beepy old posts. DO NOT POST HERE!**"
+- type: checkboxes
+  attributes:
+    options:
+      - label: I am reposting an old topic.
+        required: true
+- type: textarea
+  attributes:
+    label: Discussion
+    placeholder: Remember: you must be reposting an old topic.
+  validations:
+    required: true
