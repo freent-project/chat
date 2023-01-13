@@ -1,0 +1,19 @@
+title: "OpenWindows"
+labels: [OpenWindows]
+body:
+- type: dropdown
+  attributes:
+    label: Select Topic Area
+    description: What would you like to discuss?
+    options:
+      - "Question"
+      - "Show & Tell"
+      - "General"
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Let's start
+    description: Write your discussion.
+  validations:
+    required: true
