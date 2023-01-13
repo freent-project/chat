@@ -5,11 +5,11 @@ body:
 - type: checkboxes
   attributes:
     options:
-      - label: I am reposting an old topic.
+      - label: "I am reposting an old topic."
         required: true
 - type: textarea
   attributes:
     label: Discussion
-    placeholder: Remember: you must be reposting an old topic.
+    placeholder: "Remember: you must be reposting an old topic."
   validations:
     required: true
