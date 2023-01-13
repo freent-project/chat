@@ -4,6 +4,8 @@ body:
      value: "**NT BOT: Beep boop, please keep in mind this is not a place to post, it is an archive of beepy old posts. DO NOT POST HERE!**"
 - type: checkboxes
   attributes:
+    label: Requirements
+    description: Tick this checkbox to post in this category.
     options:
       - label: "I am reposting an old topic."
         required: true
