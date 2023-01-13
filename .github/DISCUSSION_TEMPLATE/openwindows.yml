@@ -1,5 +1,3 @@
-title: "OpenWindows"
-labels: [OpenWindows]
 body:
 - type: dropdown
   attributes:
