@@ -1,2 +1,8 @@
 body:
-- type: markdown
+- type: input
+  id: suggestion
+  attributes:
+    label: Description
+    description: "What aspect of OpenWindows/FreeNT is your poll about?"
+  validations:
+    required: true
