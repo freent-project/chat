@@ -11,10 +11,7 @@ jobs:
         uses: peter-evans/close-pull@v2
         with:
           comment: |
-             Pull requests are not accepted.
-             This is a blank repository, used for GitHub Discussions on the whole
-             FreeNT Project.
+             # Pull requests are not accepted here!
+             This is a blank repository, used for GitHub Discussions on the whole FreeNT Project.
              
-             You are most likely looking to contribute to [OpenWindows](https://github.com/freent-project/openwindows),
-             the [FreeNT Kernel](https://github.com/freent-project/freent), or the
-             [`owboot`](https://github.com/freent-project/owboot) boot loader.
+             You are most likely looking to contribute to [OpenWindows](https://github.com/freent-project/openwindows), the [FreeNT Kernel](https://github.com/freent-project/freent), or the [`owboot`](https://github.com/freent-project/owboot) boot loader.
