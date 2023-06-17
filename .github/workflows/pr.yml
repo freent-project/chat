@@ -12,10 +12,10 @@ jobs:
         uses: peter-evans/close-pull@v2
         with:
           comment: |
-            I'm an NT Bot from Flossia. I work for and am named after the FreeNT Project.
-            
-            Contributions to this repository are not accepted. I'm so sorry. Anyways, this repository only provides our fourms.
-            You can contribute to most FreeNT Projects, but this repository is no FreeNT Project. Beep-boop. Abort. Thanks for
-            reading my comment. Beep-boop.
-            
-            <sub>Signed, NT BOT</sub>
+             Pull requests are not accepted.
+             This is a blank repository, used for GitHub Discussions on the whole
+             FreeNT Project.
+             
+             You are most likely looking to contribute to [OpenWindows](https://github.com/freent-project/openwindows),
+             the [FreeNT Kernel](https://github.com/freent-project/freent), or the
+             [`owboot`](https://github.com/freent-project/owboot) boot loader.
