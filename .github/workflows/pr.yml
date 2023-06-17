@@ -15,3 +15,8 @@ jobs:
              This is a blank repository, used for GitHub Discussions on the whole FreeNT Project.
              
              You are most likely looking to contribute to [OpenWindows](https://github.com/freent-project/openwindows), the [FreeNT Kernel](https://github.com/freent-project/freent), or the [`owboot`](https://github.com/freent-project/owboot) boot loader.
+      - uses: maxkomarychev/oction-lock-issue@v0.7.1
+        with:
+           token: ${{ secrets.GITHUB_TOKEN }}
+           issue_number: ${{ github.event.pull_request.number }}
+           lock_reason: "off-topic"
